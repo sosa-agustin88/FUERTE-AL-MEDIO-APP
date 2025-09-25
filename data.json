@@ -1,0 +1,54 @@
+{
+    "groups": [
+        "A", "B", "C", "D"
+    ],
+    "teams": [
+        { "name": "Equipo A", "group": "A" },
+        { "name": "Equipo B", "group": "A" },
+        { "name": "Equipo C", "group": "A" },
+        { "name": "Equipo D", "group": "A" },
+        { "name": "Equipo E", "group": "B" },
+        { "name": "Equipo F", "group": "B" },
+        { "name": "Equipo G", "group": "B" },
+        { "name": "Equipo H", "group": "B" },
+        { "name": "Equipo I", "group": "C" },
+        { "name": "Equipo J", "group": "C" },
+        { "name": "Equipo K", "group": "C" },
+        { "name": "Equipo L", "group": "C" },
+        { "name": "Equipo M", "group": "D" },
+        { "name": "Equipo N", "group": "D" },
+        { "name": "Equipo O", "group": "D" },
+        { "name": "Equipo P", "group": "D" }
+    ],
+    "upcomingMatches": [
+        {
+            "teamA": "Equipo A",
+            "teamB": "Equipo B",
+            "date": "10 de Octubre, 10:00"
+        }
+    ],
+    "pastMatches": [
+        {
+            "teamA": "Equipo M",
+            "teamB": "Equipo N",
+            "goalsA": 2,
+            "goalsB": 1,
+            "scorers": [
+                { "player": "Jugador 1", "team": "Equipo M", "goals": 2 },
+                { "player": "Jugador 2", "team": "Equipo N", "goals": 1 }
+            ],
+            "cards": [
+                { "player": "Jugador 3", "type": "yellow" },
+                { "player": "Jugador 4", "type": "yellow" }
+            ]
+        },
+        {
+            "teamA": "Equipo O",
+            "teamB": "Equipo P",
+            "goalsA": 0,
+            "goalsB": 0,
+            "scorers": [],
+            "cards": []
+        }
+    ]
+}
